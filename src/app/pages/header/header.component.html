@@ -1,0 +1,23 @@
+<header class="header">
+  <div class="container">
+    <a href="#" class="logo">
+      <svg icon="logo" class="svg16"></svg>
+      <span>Personal</span>
+    </a>
+    <nav class="nav">
+      <ul class="nav-list">
+        @for (menuItem of menuItems; track menuItem.id) {
+          <li class="nav-item">
+            <a href="#" class="nav-link">{{ menuItem.title }}</a>
+          </li>
+        }
+      </ul>
+    </nav>
+    <div class="resume-btn">
+      <app-button [title]="'Resume'" [svgName]="'download'"></app-button>
+    </div>
+    <div class="burger">
+      <svg icon="burger" class="svg36"></svg>
+    </div>
+  </div>
+</header>

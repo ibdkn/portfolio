@@ -1,0 +1,53 @@
+:root {
+  --dark-color: #000000;
+  --light-color: #ffffff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul li {
+  list-style: none;
+}
+
+button {
+  font-family: inherit;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+body {
+  font-family: "Sora", sans-serif;
+  background-color: var(--light-color);
+}
+
+.container {
+  padding: 0 15px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.svg36 {
+  width: 36px;
+  height: 36px;
+}
+
+.svg16 {
+  width: 16px;
+  height: 16px;
+}
+
+.svg14 {
+  width: 14px;
+  height: 14px;
+}
