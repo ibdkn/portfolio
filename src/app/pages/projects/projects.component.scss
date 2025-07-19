@@ -1,0 +1,21 @@
+.projects {
+  background-color: var(--dark-color);
+
+  .projects-title {
+    color: var(--light-color);
+  }
+
+  .projects-items {
+    display: flex;
+    flex-direction: column;
+    gap: 140px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projects {
+    .projects-items {
+      gap: 28px;
+    }
+  }
+}
