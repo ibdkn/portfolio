@@ -1,0 +1,72 @@
+.experience-item {
+  border-radius: 10px;
+  padding: 30px 24px;
+  border: 1px solid var(--zinc-300);
+  transition: .3s ease-in-out;
+
+  .experience-item-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .experience-item-body {
+    margin-top: 28px;
+  }
+
+  .experience-item-title {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    span {
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 117%;
+      letter-spacing: -0.02em;
+      color: var(--light-color);
+    }
+  }
+
+  .experience-item-period {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -0.02em;
+    color: var(--zinc-300);
+  }
+
+  .experience-item-description {
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--zinc-300);
+  }
+
+  &:hover {
+    background-color: var(--zinc-800);
+    transition: .3s ease-in-out;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .experience-item {
+    .experience-item-header {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 30px;
+    }
+
+    .experience-item-body {
+      margin-top: 28px;
+    }
+
+    .experience-item-title {
+      span {
+        font-size: 20px;
+        line-height: 120%;
+      }
+    }
+  }
+}

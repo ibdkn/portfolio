@@ -1,0 +1,21 @@
+.experience {
+  background-color: var(--dark-color);
+
+  .experience-title {
+    color: var(--light-color);
+  }
+
+  .experience-items {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .experience {
+    .experience-items {
+      gap: 20px;
+    }
+  }
+}
