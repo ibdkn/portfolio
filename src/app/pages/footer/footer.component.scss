@@ -1,0 +1,32 @@
+.footer {
+  padding: 30px 0;
+  background-color: var(--dark-color);
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--light-color);
+  }
+
+  .footer-rights {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -0.02em;
+    text-align: right;
+    color: var(--light-color);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 20px 0;
+  }
+}
