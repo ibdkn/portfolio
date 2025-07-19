@@ -1,6 +1,4 @@
 .main {
-  padding: 60px 0;
-
   .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -53,8 +51,6 @@
 
 @media screen and (max-width: 1002px) {
   .main {
-    padding: 40px 0;
-
     .container {
       display: flex;
       justify-content: center;

@@ -34,11 +34,32 @@ body {
   background-color: var(--light-color);
 }
 
+section {
+  padding: 60px 0;
+}
+
+@media screen and (max-width: 1023px){
+  section {
+    padding: 40px 0;
+  }
+}
+
 .container {
   padding: 0 15px;
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 1023px){
+  .container {
+    padding: 0 10px;
+  }
+}
+
+.svg56 {
+  width: 56px;
+  height: 56px;
 }
 
 .svg40 {
@@ -69,4 +90,25 @@ body {
 .svg14 {
   width: 14px;
   height: 14px;
+}
+
+.common-title {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 117%;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin-bottom: 80px;
+
+  strong {
+    font-weight: 800;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .common-title {
+    font-size: 28px;
+    line-height: 114%;
+    margin-bottom: 40px;
+  }
 }
