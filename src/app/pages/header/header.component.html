@@ -1,7 +1,7 @@
 <header class="header">
   <div class="container">
     <a href="#" class="logo">
-      <svg icon="logo" class="svg16"></svg>
+      <svg icon="logo" class="svg40"></svg>
       <span>Personal</span>
     </a>
     <nav class="nav">
@@ -16,8 +16,10 @@
     <div class="resume-btn">
       <app-button [title]="'Resume'" [svgName]="'download'"></app-button>
     </div>
-    <div class="burger">
-      <svg icon="burger" class="svg36"></svg>
+    <div class="burger" [class.open]="isOpen" (click)="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
   </div>
 </header>

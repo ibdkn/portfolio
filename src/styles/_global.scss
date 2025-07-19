@@ -25,6 +25,10 @@ button {
   cursor: pointer;
 }
 
+img {
+  max-width: 100%;
+}
+
 body {
   font-family: "Sora", sans-serif;
   background-color: var(--light-color);
@@ -37,9 +41,24 @@ body {
   margin: 0 auto;
 }
 
+.svg40 {
+  width: 40px;
+  height: 40px;
+}
+
 .svg36 {
   width: 36px;
   height: 36px;
+}
+
+.svg24 {
+  width: 24px;
+  height: 24px;
+}
+
+.svg20 {
+  width: 20px;
+  height: 20px;
 }
 
 .svg16 {

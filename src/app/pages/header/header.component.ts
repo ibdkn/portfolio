@@ -1,6 +1,6 @@
 import {ChangeDetectionStrategy, Component} from '@angular/core';
 import {SvgIconComponent} from '../../shared/components/svg-icon/svg-icon.component';
-import {ButtonComponent} from '../../button/button.component';
+import {ButtonComponent} from '../../shared/button/button.component';
 
 @Component({
   selector: 'app-header',
@@ -35,4 +35,9 @@ export class HeaderComponent {
       title: 'Contact me'
     },
   ]
+  isOpen = false;
+
+  toggleMenu(): void {
+    this.isOpen = !this.isOpen;
+  }
 }
