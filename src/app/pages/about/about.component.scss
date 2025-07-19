@@ -1,0 +1,45 @@
+.about {
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 87px;
+  }
+
+  .about-info {
+    max-width: 610px;
+
+    .about-title {
+      text-align: left;
+      margin-bottom: 40px;
+    }
+
+    .about-info-description {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .about-info-text {
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: var(--zinc-500);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .about {
+    .container {
+      gap: 40px;
+    }
+  }
+}
+
+@media screen and (max-width: 1002px) {
+  .about {
+    .container {
+      flex-direction: column;
+    }
+  }
+}
