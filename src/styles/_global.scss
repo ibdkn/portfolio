@@ -108,12 +108,17 @@ section {
   strong {
     font-weight: 800;
   }
+
+  .outline-text {
+    color: var(--light-color);
+    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .common-title {
-    font-size: 28px;
-    line-height: 114%;
+    font-size: 32px;
+    line-height: 140%;
     margin-bottom: 40px;
   }
 }

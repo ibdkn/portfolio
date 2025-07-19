@@ -17,21 +17,8 @@
   }
 
   .main-title {
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 140%;
-    letter-spacing: -0.02em;
-    color: var(--dark-color);
+    text-align: left;
     margin-bottom: 32px;
-
-    strong {
-      font-weight: 800;
-
-      &.outline-text {
-        color: var(--light-color);
-        text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
-      }
-    }
   }
 
   .main-description {
@@ -62,10 +49,6 @@
 
 @media screen and (max-width: 768px) {
   .main {
-    .main-title {
-      font-size: 32px;
-    }
-
     .main-description {
       margin-bottom: 32px;
     }
